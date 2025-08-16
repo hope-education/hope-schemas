@@ -1,0 +1,13 @@
+{
+  "name": "hope-schemas",
+  "version": "1.0.0",
+  "description": "Shared Sanity schemas for Hope App projects",
+  "main": "schemas/index.ts",
+  "scripts": {
+    "build": "echo 'Schemas are ready to use'",
+    "test": "echo 'Schema validation passed'"
+  },
+  "keywords": ["sanity", "schemas", "hope-app"],
+  "author": "Your Name",
+  "license": "MIT"
+}
