@@ -32,6 +32,12 @@ export default {
               type: 'string',
             },
             {
+              name: 'buttonLink',
+              title: 'Button Link',
+              type: 'string',
+              description: 'URL or path for the button (e.g., /library, /online-classes)',
+            },
+            {
               name: 'isDisabled',
               title: 'Disabled?',
               type: 'boolean',
