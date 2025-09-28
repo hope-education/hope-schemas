@@ -11,6 +11,7 @@ import about_hero from './about-us/about_hero';
 import about_profile from './about-us/about_profile';
 import about_description from './about-us/about_description';
 import seminar_hero from './seminar/seminar_hero';
+import seminar_cards from './seminar/seminar_cards';
 
 // Category schemas
 import PastPaperReviews from './category/PastPaperReviews'
@@ -40,6 +41,7 @@ export const schemaTypes = [
     about_profile,
     about_description,
     seminar_hero,
+    seminar_cards,
     PastPaperReviews,
     worksheets,
     shortnotes,
