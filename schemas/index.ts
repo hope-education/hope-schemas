@@ -10,6 +10,7 @@ import co_learning_hero from './co-learning-space/co_learning_hero';
 import about_hero from './about-us/about_hero';
 import about_profile from './about-us/about_profile';
 import about_description from './about-us/about_description';
+import seminar_hero from './seminar/seminar_hero';
 
 // Category schemas
 import PastPaperReviews from './category/PastPaperReviews'
@@ -38,6 +39,7 @@ export const schemaTypes = [
     about_hero,
     about_profile,
     about_description,
+    seminar_hero,
     PastPaperReviews,
     worksheets,
     shortnotes,
