@@ -19,6 +19,7 @@ export default {
                                 hotspot: true
                             }
                         },
+                        
                         {
                             name: 'title',
                             title: 'Title',
@@ -29,6 +30,17 @@ export default {
                             title: 'Button',
                             type: 'string',
     
+                        },
+                        {
+                            name: 'recordings',
+                            title: 'Recordings',
+                            type: 'array',
+                            of: [{ 
+                                type: 'object',
+                                fields: [
+                                    {name: 'title', title: 'Title', type: 'string'},
+                                    {name: 'url', title: 'URL', type: 'url'}
+                                ]}]
                         }
                     ]
                 }
