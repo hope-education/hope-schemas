@@ -14,6 +14,7 @@ import seminar_hero from './seminar/seminar_hero';
 import seminar_cards from './seminar/seminar_cards';
 import school_hero from './for-schools/school_hero';
 import school_cards from './for-schools/school_cards';
+import school_featureSection from './for-schools/school_featureSection';
 
 // Category schemas
 import PastPaperReviews from './category/PastPaperReviews'
@@ -46,6 +47,7 @@ export const schemaTypes = [
     seminar_cards,
     school_hero,
     school_cards,
+    school_featureSection,
     PastPaperReviews,
     worksheets,
     shortnotes,
